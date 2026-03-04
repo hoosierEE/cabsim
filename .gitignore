@@ -3,5 +3,5 @@
 *.log
 tmp/
 
-# \#auto_saved_files\#
-# *.lck
+\#auto_saved_files\#
+*.lck
