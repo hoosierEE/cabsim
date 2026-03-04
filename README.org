@@ -19,6 +19,11 @@ Next comes another active gyrator, but this one acts as a notch rather than a pe
 
 Finally an output gain stage provides an active "level" control to adjust volume, providing up to 22dB of overall gain at 2.5kHz.
 
+For the circuit tweaking enthusiasts out there, here is an illustration of which parts of the circuit are responsible for which parts of the frequency response:
+
+#+caption: illustrated frequency response
+[[file:./cabsim-filters.png]]
+
 ** Component Values
 One of my design goals is to use as few different comoponent values as possible without sacrificing functionality. This makes it easier to buy components in bulk if you only need to have a small handful of different values. In this circuit, you might notice there are a lot of 10kΩ resistors and 10nF and 100nF capacitors. But it's not always feasible to just use values where the most significant digit is =1=. So there are also some 3.9kΩ resistors and 330pF and 3.3nF capacitors. My working theory is that the optimal balance between expressivity and using the minimum number of different values is to have a set of values that are multiples of =1=, and =3.3=. I fell short of that goal in this circuit by including 2.2nF and 3.9kΩ values, but the vast majority of values are multiples of =1=, so that gives me some warm fuzzy feelings.
 
