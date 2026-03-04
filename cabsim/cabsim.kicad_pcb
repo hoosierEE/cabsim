@@ -1078,7 +1078,7 @@
 				)
 			)
 		)
-		(property "Value" "390"
+		(property "Value" "330"
 			(at 3.81 2.31 90)
 			(layer "F.Fab")
 			(uuid "2aab47e5-2be2-49f7-9ea6-3ad2bccfe7d9")
@@ -3155,7 +3155,7 @@
 				)
 			)
 		)
-		(property "Value" "3.9k"
+		(property "Value" "3.3k"
 			(at 3.81 2.31 90)
 			(layer "F.Fab")
 			(uuid "d2f247b0-974a-4984-a22e-34c6bd0f9e23")
@@ -7220,7 +7220,7 @@
 			)
 		)
 		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*")
-		(path "/33078e74-4db9-4a2e-91f8-522065b4be95")
+		(path "/4d4050a0-3d68-4ec6-8515-1b8bc02055bd")
 		(sheetname "/")
 		(sheetfile "cabsim.kicad_sch")
 		(attr through_hole)
@@ -9909,7 +9909,7 @@
 				)
 			)
 		)
-		(property "Value" "3.9k"
+		(property "Value" "3.3k"
 			(at 3.81 2.31 90)
 			(layer "F.Fab")
 			(uuid "39fa4882-b2e0-412a-9ae9-4e42bcca3047")
@@ -10967,7 +10967,7 @@
 			)
 		)
 		(property ki_fp_filters "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm*")
-		(path "/fe015879-4c53-485c-ac97-98cdfce44903")
+		(path "/9b7cf216-6c45-4481-bb0b-087b06ed94b8")
 		(sheetname "/")
 		(sheetfile "cabsim.kicad_sch")
 		(attr through_hole)
@@ -13784,7 +13784,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "2.2n"
+		(property "Value" "3.3n"
 			(at 2.5 -2.31 90)
 			(layer "B.Fab")
 			(uuid "52286e20-1eae-4dcf-913a-f2459fb0f5bc")
@@ -14459,7 +14459,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "1n"
+		(property "Value" "3.3n"
 			(at 2.5 -2.31 90)
 			(layer "B.Fab")
 			(uuid "1621165b-ad7c-4684-8d8a-76ea7240011f")

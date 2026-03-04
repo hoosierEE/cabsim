@@ -36,6 +36,13 @@ For comparison, Celestion [[https://celestion.com/product/vintage-30/][publishes
 
 #+caption: vintage 30
 [[file:./T3903-Vintage-30-copy.jpg]]
+** Possible Modifications
+As shown, this circuit is stripped-down to the essentials. But there are some minor mods you can do to make it more flexible.
+
+#+caption: de-notch
+[[file:./cabsim-mod.png]]
+
+For example, partially disabling the 2.5kHz notch will change the character noticeably and only costs one switch and one resistor.
 
 
 * Why Cabsim?
