@@ -1,6 +1,3 @@
-#+title: Readme
-
-
 * Cabinet Simulator
 This circuit provides a kind of specialized equalization designed to mimic the unique frequency response of a guitar speaker cabinet. Far from a flat or full-range response that you would expect from a Hi-Fi or home theater loudspeaker, a guitar cabinet has a lumpy response of peaks and dips. However, this response is what people expect to hear from a guitar, and it occupies a specific space in the context of a full mix of other instruments.
 
@@ -22,6 +19,8 @@ Next comes another active gyrator, but this one acts as a notch rather than a pe
 
 Finally an output gain stage provides an active "level" control to adjust volume, providing up to 22dB of overall gain at 2.5kHz.
 
+** Component Values
+One of my design goals is to use as few different comoponent values as possible without sacrificing functionality. This makes it easier to buy components in bulk if you only need to have a small handful of different values. In this circuit, you might notice there are a lot of 10kΩ resistors and 10nF and 100nF capacitors. But it's not always feasible to just use values where the most significant digit is =1=. So there are also some 3.9kΩ resistors and 330pF and 3.3nF capacitors. My working theory is that the optimal balance between expressivity and using the minimum number of different values is to have a set of values that are multiples of =1=, and =3.3=. I fell short of that goal in this circuit by including 2.2nF and 3.9kΩ values, but the vast majority of values are multiples of =1=, so that gives me some warm fuzzy feelings.
 
 ** Frequency Response
 The frequency response of this circuit touches on the key aspects of a typical guitar speaker and speaker cabinet: first order highpass around 200Hz, 2nd order lowpass around 5kHz, and a slight notch between 1kHz and 2kHz.
@@ -33,7 +32,17 @@ The frequency response of this circuit touches on the key aspects of a typical g
 #+caption: resonance = 1
 [[file:./cabsim-r1.0.png]]
 
-For comparison, Celestion publishes a frequency response plot of their Vintage 30 loudspeaker that looks like this:
+For comparison, Celestion [[https://celestion.com/product/vintage-30/][publishes]] a frequency response plot of their Vintage 30 loudspeaker that looks like this:
 
 #+caption: vintage 30
 [[file:./T3903-Vintage-30-copy.jpg]]
+
+
+* Why Cabsim?
+Here are a couple reasons to use a cabinet simulator:
+1. You are going "ampless" and relying on PA monitors instead of guitar amplifiers. This eliminates some of the heaviest and most cumbersome gear a guitarist deals with, and keeps stage volumes more manageable.
+2. You're recording with an audio interface but want to monitor your raw track, and the direct headphone out of the interface sounds bad. A cabsim can make it sound closer to how a guitar cabinet should sound, which will sound more natural in your headphones and hopefully make recording a more pleasant process.
+3. You want a headphone setup for silent practice, but the raw signal coming out of your pedals is much too harsh. This cabsim will roll off the highs and give a bit of character so it sounds less flat and sterile.
+   
+* What Alternatives Exist?
+A cabinet simulator is really just a kind of EQ, so naturally if you have an EQ pedal already, you can use it to do the job of a cabinet simulator.
