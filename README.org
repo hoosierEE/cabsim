@@ -49,6 +49,14 @@ As shown, this circuit is stripped-down to the essentials. But there are some mi
 
 For example, partially disabling the 2.5kHz notch will change the character noticeably and only costs one switch and one resistor.
 
+** 1590a Layout
+This repo contains KiCad files for a circuit board layout intended to fit inside a 1590a-sized enclosure.
+
+Circuit board layers:
+[[file:./cabsim-board.png]]
+
+3D Render:
+[[file:./cabsim-render.png]]
 
 * Why Cabsim?
 Here are a couple reasons to use a cabinet simulator:
