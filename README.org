@@ -55,8 +55,10 @@ This repo contains KiCad files for a circuit board layout intended to fit inside
 Circuit board layers:
 [[file:./cabsim-board.png]]
 
-3D Render:
+3D Renders:
 [[file:./cabsim-render.png]]
+
+[[file:./cabsim-render-bottom.png]]
 
 * Why Cabsim?
 Here are a couple reasons to use a cabinet simulator:
